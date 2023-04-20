@@ -1,0 +1,7 @@
+version: "2.15.1"
+
+services:
+  file-manager:
+    build: .
+    ports:
+      - 5001:5000
